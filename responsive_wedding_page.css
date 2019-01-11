@@ -1,0 +1,304 @@
+*{
+  box-sizing:border-box;
+  color:#d2ba87;
+  font-family: Libre Baskerville;
+  }
+
+a{
+  color:#bd806e;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#eda087;
+  transition:color .2s ease-in-out;
+  }
+/* ==== Header ====  */
+
+header{
+  height:100vh;
+  width:100vw;
+  margin:0 auto;
+  background:url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg)70% center/cover no-repeat;
+  background-size:cover;
+  display:table;
+  text-align:center;
+}
+.hwrapper{
+  width:50vw;
+  display:table-cell;
+  vertical-align:middle;
+}
+header h1{
+  margin-top:20px;
+  font-size:1.5rem;
+  margin-bottom:1rem;
+  color:#fff; 
+}
+
+header h1::after {
+  display:block;
+  content: "";
+  background-color: #fff;
+  height: 2px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+header h2{
+  font-size:3rem;
+  margin-bottom:1rem;
+  font-family: 'Great Vibes', cursive;
+}
+
+header h3{
+ font-size:1.5rem;
+  font-family:'Libre Baskerville', serif;
+  color:#fff; 
+  padding-bottom:10px
+}
+
+header h3::before, header h3::after{
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align:middle;
+  margin: 0 .5rem;
+}
+
+.hh{
+  background:rgba(0, 0, 0,.5);
+  margin:0 auto;
+  padding-top:7px;
+  max-height:300px;
+
+}
+
+/* ==== Main sections ====  */
+/* ==== Locatios ====  */
+
+main{
+  height:100vh;
+  width:100vw;
+  text-align:center;
+  background:url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png) center;
+  color:#444349;
+  display:table;
+ 
+}
+.location{
+ margin:2rem auto;
+}
+
+.location h1{
+  font-size:3rem;
+  color:#444349;
+  font-family: 'Great Vibes', cursive;
+}
+
+/* ==== Ceremony ====  */
+
+.ceremony h2{
+  font-size:1.5rem;
+  color:#444349;
+  padding:1rem;
+}
+
+.ceremony::after{
+  content:'';
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+.tworing{
+  margin-top:1rem;
+  height:7.5rem;
+  width:7.5rem;
+}
+
+.ceremony p{
+  max-width:50%;
+  margin:1rem auto;
+  color:#444349;
+  font-family: 'Muli', sans-serif;
+  font-weight:bold;
+}
+
+/* ==== Program ====  */
+
+.program{
+  width:100vw;
+  background:rgba(68, 67, 73,0.7);
+}
+.program h1{
+  font-family:'Great vibes',cursive;
+  padding:1.5rem;
+  font-size:3rem;
+}
+.program h2{
+  padding-bottom:1.5rem;
+  font-family:"Muli";
+  font-size:1.2rem; 
+  font-style:italic;
+}
+
+.programlist{
+  text-align:left;
+  display:inline-block;
+  margin-bottom:1rem;
+  letter-spacing:.025rem;
+}
+.program li{
+  line-height:1.5rem;
+  
+}
+
+/* ==== Gifts ====  */
+
+.gifts h1,p{
+  color:#444349;
+}
+
+.gifts h1{
+  font-family:'great vibes';
+  font-size:3rem;
+  padding:2rem;
+}
+
+.gifts p{
+  font-family:"Muli";
+  font-size:1.2rem; 
+  padding:1.5rem;  
+}
+
+.gift{
+  margin-top:1rem;
+  height:100px;
+  width:100px;
+}
+
+/* ==== QandA ====  */
+
+.qanda{
+  background:rgba(68, 67, 73,0.7);
+  padding:2rem
+}
+.qanda h1{
+  font-family:'great vibes';
+  font-size:3rem;
+ 
+}
+
+.question{
+  text-align:left;
+  margin:0 auto;
+  padding-bottom:2.5rem;
+  border-bottom: 2px solid;
+  line-height:1.3rem
+  
+}
+
+.question h2{
+  padding:1.5rem;
+  font-size:1.2rem;
+  text-align:center;
+}
+
+.question p{
+  color:#d2ba87;
+  padding-bottom:1.5rem;
+  font-family:"Muli";
+}
+
+.question strong{
+  display:block;
+  padding-bottom:.5rem;
+  font-weight:bold; 
+}
+
+/* ==== Contact ====  */
+
+.contact{
+  padding:2rem;
+}
+
+.contact h1{
+  font-family:'great vibes';
+  font-size:3rem;
+  color:#444349;
+  padding-bottom:1.5rem  
+}
+
+.contact p{
+  margin:1rem 0;
+  font-size:1.1rem
+}
+
+
+
+/* ==== Footer ====  */
+footer{
+  height:8rem;
+  width:100vw;
+  font-size:1.3rem;
+  background:#606060;
+  text-align:center;
+  display:table;  
+}
+
+.fwrapper{
+  display:table-cell;
+  vertical-align:middle;
+}
+
+footer a{
+  margin-top:10px;
+  padding:10px;
+  display:inline-block;
+}
+
+.fwrapper p{
+  margin: auto;
+  width:80vw;
+  font-size:1rem; 
+  color:white;
+  font-family:"Muli";
+}
+
+/* ==== Media queries ====  */
+
+@media  (min-width: 768px){
+
+  .hh h1,h3{
+    text-transform:uppercase;
+    font-family: Libre Baskerville;
+    font-size:1.2rem;
+  }
+  .hh{
+    width:50%;
+    border-radius:15px;
+  }
+  
+  .ceremony{
+    display:inline-block;
+    width:33%;
+  }
+  
+  .ceremony::after{
+    display:none;
+  }
+  
+  .question{
+    display:inline-block;
+    border:none;
+    margin:1rem;
+    max-width:300px;
+    vertical-align:top;
+  }   
+}
